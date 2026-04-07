@@ -1,13 +1,13 @@
 import Image from "next/image"
 
-export default function About() {
+export default function Contact() {
     return (
         <footer className="min-h-screen flex bg-[#6e0f2d] text-white">
         
                     {/* left box */}
         
                     <div className="flex-1 flex flex-col justify-center items-center text-center p-8">
-                        <h2 className="text-7xl">We'd love to see <br />
+                        <h2 className="text-7xl">We&apos;d love to see <br />
                             you!
                         </h2>
         

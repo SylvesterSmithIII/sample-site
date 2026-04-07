@@ -17,8 +17,8 @@ export default function Story() {
           family, we decided to turn that love into a place where the community could
           come together over fresh, homemade treats. Every item we make is baked daily
           using simple, high-quality ingredients, with the goal of creating something
-          that feels both comforting and special. Whether you're stopping by for your
-          morning coffee or picking up something sweet for the weekend, we’re here to
+          that feels both comforting and special. Whether you&apos;re stopping by for your
+          morning coffee or picking up something sweet for the weekend, we&apos;re here to
           make every visit feel warm, welcoming, and a little bit memorable.
         </p>
       </div>
