@@ -19,18 +19,12 @@ export default function About() {
                     {/* left box */}
         
                     <div className="flex-1 flex flex-col justify-center items-center text-center p-8">
-                        <h2 className="text-7xl">We&apos;d love to see <br />
-                            you!
+                        <h2 className="text-7xl mb-12">About Us
                         </h2>
         
-                        <h4 className="text-4xl mt-12 mb-2">Butter & Crumb</h4>
-                        <p className="text-2xl mb-8">123 Main Street, Anytown, USA</p>
+                        <p className="text-2xl mb-8">At Butter & Crumb, everything started with a simple love for baking and bringing people together. What began in a small kitchen—testing recipes and sharing treats with friends and family—quickly grew into a passion for creating a space where the whole community could enjoy fresh, homemade baked goods.</p>
+                        <p className="text-2xl mb-8">We believe a bakery should be more than just a place to grab something quick—it should feel warm, welcoming, and familiar. Whether  you&apos;re stopping by for your morning coffee or picking up something special to share, we&apos;re here to make your day just a little sweeter.</p>
         
-                        <h4 className="text-4xl mb-2">Email Address</h4>
-                        <p className="text-2xl mb-8">hello@BUTTER&CRUMB.com</p>
-        
-                        <h4 className="text-4xl mb-2">Phone Number</h4>
-                        <p className="text-2xl mb-8">(123) 456 7890</p>
                     </div>
 
                     
