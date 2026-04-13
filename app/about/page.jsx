@@ -2,16 +2,16 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <footer className="min-h-screen flex bg-[#6e0f2d] text-white">
+        <footer className="min-h-screen flex bg-[#6e0f2d] text-white flex-col-reverse md:flex-row pt-8">
         
 
-                    <div>
+                    <div className="p-4 md:p-0">
                         <Image
                             src="/about.jpg"
                             alt="About image"
                             width={800}
                             height={600}
-                            className="object-cover h-full"
+                            className="object-cover h-full rounded-3xl md:rounded-none"
                             priority
                         />
                     </div>

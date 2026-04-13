@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <div className="h-[60vh] w-full flex flex-col md:flex-row text-white bg-[#6e0f2d] p-8 md:p-0">
+    <div className="md:h-[60vh] w-full flex flex-col md:flex-row text-white bg-[#6e0f2d] p-8 md:p-0">
       
       {/* Left side: heading */}
       <div className="flex items-center justify-center md:w-2/5">
