@@ -1,17 +1,17 @@
 export default function Story() {
   return (
-    <div className="h-[60vh] w-full flex text-white bg-[#6e0f2d]">
+    <div className="h-[60vh] w-full flex flex-col md:flex-row text-white bg-[#6e0f2d] p-8 md:p-0">
       
       {/* Left side: heading */}
-      <div className="flex items-center justify-center w-2/5">
-        <h3 className="text-7xl font-bold font-italiana tracking-widest">
+      <div className="flex items-center justify-center md:w-2/5">
+        <h3 className="text-5xl md:text-7xl font-bold font-italiana tracking-widest">
           OUR STORY
         </h3>
       </div>
 
       {/* Right side: paragraph */}
-      <div className="w-3/5 flex items-center">
-        <p className="text-2xl leading-snug">
+      <div className="md:w-3/5 flex items-center mt-4 md:mt-0">
+        <p className="text-xl md:text-2xl text-center md:text-left leading-snug">
           What started as a small passion for baking in a home kitchen quickly grew
           into something much more. After years of sharing recipes with friends and
           family, we decided to turn that love into a place where the community could

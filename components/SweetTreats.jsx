@@ -9,7 +9,7 @@ export default function SweetTreats() {
       <ScrollingText text={"SWEET TREATS • SWEET TREATS"} classNames="text-[#6e0f2d]" />
 
       {/* Images container */}
-      <div className="flex flex-1">
+      <div className="flex flex-col md:flex-row  flex-1">
         {/* Treat 1 */}
         <div className="relative flex-1">
           <Image
@@ -21,7 +21,7 @@ export default function SweetTreats() {
 
           <div className="h-full flex flex-row justify-center items-center">
 
-            <div className="relative inset-0 w-[450px] h-[300px] border-2 text-white text-4xl rounded-[70%_50%_60%_40%/60%_60%_40%_50%] flex justify-center items-center text-center">
+            <div className="relative inset-0 w-[450px] h-[300px] border-2 text-white text-4xl rounded-[70%_50%_60%_40%/60%_60%_40%_50%] flex justify-center items-center text-center m-12 md:m-0">
                 <p>
                     PIES
                 </p>
@@ -43,7 +43,7 @@ export default function SweetTreats() {
 
           <div className="h-full flex flex-row justify-center items-center">
 
-            <div className="relative inset-0 w-[450px] h-[300px] border-2 text-white text-4xl rounded-[70%_50%_60%_40%/60%_60%_40%_50%] flex justify-center items-center text-center">
+            <div className="relative inset-0 w-[450px] h-[300px] border-2 text-white text-4xl rounded-[70%_50%_60%_40%/60%_60%_40%_50%] flex justify-center items-center text-center m-12 md:m-0">
                 <p>
                     BREADS
                 </p>
@@ -64,7 +64,7 @@ export default function SweetTreats() {
 
           <div className="h-full flex flex-row justify-center items-center">
 
-            <div className="relative inset-0 w-[450px] h-[300px] border-2 text-white text-4xl rounded-[70%_50%_60%_40%/60%_60%_40%_50%] flex justify-center items-center text-center">
+            <div className="relative inset-0 w-[450px] h-[300px] border-2 text-white text-4xl rounded-[70%_50%_60%_40%/60%_60%_40%_50%] flex justify-center items-center text-center m-12 md:m-0">
                 <p>
                     CAKES
                 </p>

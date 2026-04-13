@@ -2,17 +2,17 @@ import Image from "next/image"
 
 export default function Footer() {
     return (
-        <footer className="min-h-screen flex bg-[#6e0f2d] text-white">
+        <footer className="md:min-h-screen flex bg-[#6e0f2d] text-white">
 
             {/* left box */}
 
             <div className="flex-1 flex flex-col justify-end items-center text-center p-8">
 
-                <h3 className="text-5xl pb-20">EXPERIEENCE <br />
+                <h3 className="text-3xl md:text-5xl pb-8 md:pb-20">EXPERIEENCE <br />
                     EXCELLENT DESSERTS <br />
                     AT 48 WASHINGTON</h3>
 
-                <h5 className="text-xl pb-36">23 Anywhere St., Any City, ST 12345
+                <h5 className="text-xl mb-12 md:pb-36">23 Anywhere St., Any City, ST 12345
                     <br />
                     hello@BUTTER&CRUMB.com
                     <br />
@@ -27,7 +27,7 @@ export default function Footer() {
 
             {/* right box */}
 
-            <div className="flex-1 relative">
+            <div className="flex-1 relative hidden md:block">
                 <Image
                     src="/contact.jpg"
                     alt="Footer image"
